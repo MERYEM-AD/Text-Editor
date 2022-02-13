@@ -48,7 +48,7 @@ module.exports = () => {
       }),
       
     ],
-
+    devtool:"source-map",
     module: {
       //  Add CSS loaders and babel to webpack.
       rules: [
